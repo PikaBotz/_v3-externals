@@ -1,34 +1,36 @@
 import { cmd } from "../lib/plugins.js";
 
+import { getSecretMessage, calculateMath } from "../lib/_test.helper.js";
+
 export const install = {
+
+    module: "test-package-v1",
+
     files: [
         {
 
-            url: "https://gist.githubusercontent.com/USER/HASH/raw/_test.js", 
-            path: "./lib/_test.js",
-            force: true 
+            url: "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_Helper/_test.helper.js", 
 
+            path: "./lib/_test.helper.js",
+
+            force: true 
         }
     ]
 };
 
 export default [
     cmd({
-        name: "testinstall",
+        name: "testexternal",
         category: "owner",
-        desc: "Tests the external plugin dependency system.",
-        react: "🧪"
+        desc: "Tests static dependency imports.",
+        react: "🔗"
     }, async (c, msg) => {
-        try {
 
-            const helper = await import(`../lib/_test.js?t=${Date.now()}`);
+        const msg1 = getSecretMessage();
 
-            return msg.reply(helper.getTestMessage());
+        const msg2 = calculateMath(10, 50);
 
-        } catch (e) {
-            console.error(e);
-            return msg.reply("❌ Error: Could not load dependency ./lib/_test.js");
-        }
+        return msg.reply(`${msg1}\n\n${msg2}`);
     })
 ];
 
