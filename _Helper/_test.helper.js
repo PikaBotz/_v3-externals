@@ -1,3 +1,5 @@
+// "for:anya.v3"
+
 export function getSecretMessage() {
     return "🎉 IT WORKS! The dependency was pre-installed and imported statically.";
 }
