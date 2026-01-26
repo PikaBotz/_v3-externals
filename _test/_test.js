@@ -1,3 +1,5 @@
+// "for:anya.v3"
+
 import { cmd } from "../lib/plugins.js";
 
 import { getSecretMessage, calculateMath } from "../lib/_test.helper.js";
