@@ -1,7 +1,7 @@
 // "for:anya.v3"
 
 import { cmd } from "../../lib/plugins.js";
->
+import cheerio from "cheerio";
 import { getSecretMessage, calculateMath } from "../../lib/_test.helper.js";
 
 export const install = {
