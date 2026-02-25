@@ -1,10 +1,10 @@
 [
   {
     "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_test/_test.js",
-    "desc": "Simple commands to test external plugin's run.",
+    "desc": "Simple commands to test external plugin's run."
   },
   {
     "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_test/_test2.js",
-    "desc": "Simple commands to test external plugin",
+    "desc": "Simple commands to test external plugin"
   }
 ]
