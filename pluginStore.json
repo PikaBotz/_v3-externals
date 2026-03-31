@@ -1,7 +1,8 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_test/_test.js",
-    "desc": "Simple commands to test external plugin's run."
+    "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/arcade/tower.js",
+    "category": "arcade",
+    "desc": "A gambling game where you have to choose safe gates to reach top of a tower for a massive reward!"
   },
   {
     "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_test/_test2.js",
