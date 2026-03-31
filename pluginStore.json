@@ -3,9 +3,5 @@
     "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/arcade/tower.js",
     "category": "arcade",
     "desc": "Climb the tower! Pick safe doors to multiply your money, but avoid the bombs."
-  },
-  {
-    "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/_test/_test2.js",
-    "desc": "Simple commands to test external plugin"
   }
 ]
