@@ -1,3 +1,5 @@
+// "for:anya.v3"
+
 import { cmd, cooldownForSpecificCommands } from "../../lib/index.js";
 import { Leveling } from "../../src/leveling/manager.js";
 
