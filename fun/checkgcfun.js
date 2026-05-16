@@ -1,6 +1,6 @@
 // "for:anya.v3"
 
-import { cmd, func } from "../lib/index.js";
+import { cmd, func } from "../../lib/index.js";
 
 const funCheckCommands = [
   { name: "gaycheck", react: "👨🏼‍❤️‍👨🏻" },
