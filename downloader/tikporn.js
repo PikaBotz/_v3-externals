@@ -44,7 +44,7 @@ export default [
         react: "😋",
         premium: true,
         exp: 40
-    }, async (c, msg) => {
+    }, async (c, msg, { group }) => {
         if (msg.isGroup && !group.nsfw) return {
             executed: false,
             metadata: await msg.reply(Cg.RESPONSE.nsfwDisabled)
