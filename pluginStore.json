@@ -10,5 +10,11 @@
     "category": "fun",
     "desc": "Check for various possibilities percentages in group chats",
     "type": "pack"
-  }
+  },
+    {
+    "url": "https://raw.githubusercontent.com/PikaBotz/_v3-externals/refs/heads/main/downloader/tikporn.js",
+    "category": "nsfw",
+    "desc": "Tiktok style short porn videos's wide range.",
+    "type": "command"
+    }
 ]
