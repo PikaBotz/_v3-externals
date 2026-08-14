@@ -41,7 +41,9 @@ export default [
         alias: ["tiktokporn", "porntik", "tporn", "pornt"],
         category: "nsfw",
         desc: "Get tiktok size short porn videos.",
-        react: "😋"
+        react: "😋",
+        premium: true,
+        exp: 40
     }, async (c, msg) => {
         if (msg.isGroup && !group.nsfw) return {
             executed: false,
